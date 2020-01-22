@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "137403496271",
+    "firebase_url": "https://tamma-3be8c.firebaseio.com",
+    "project_id": "tamma-3be8c",
+    "storage_bucket": "tamma-3be8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137403496271:android:655d6e761bafc405cbf73a",
+        "android_client_info": {
+          "package_name": "com.example.tamma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137403496271-huf5ln63dq3plkkk7rb8gdrib2o1e9p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tamma",
+            "certificate_hash": "d8d42ea67a4043b0252ece51029f872fc94fda68"
+          }
+        },
+        {
+          "client_id": "137403496271-8tqqol8ithm6q1bdf9umf5e3njgfk1us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpKFqqVapH-ixvJ4cjGsG2KT4gNiyCoYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137403496271-8tqqol8ithm6q1bdf9umf5e3njgfk1us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

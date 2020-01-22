@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layout_panal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pickup Address"
+            android:layout_margin="10dp"
+            android:layout_weight="5" />
+        <Button
+            android:id="@+id/btnsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="searchLocation"
+            android:text="GO"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/desti"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/destiedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination Address"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="5" />
+        <Button
+            android:id="@+id/btndesti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="destiLocation"
+            android:text="GO"/>
+
+
+
+    </LinearLayout>
+    <fragment
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edmt.dev.androiduberanimation.Maps"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+
+
+    </fragment>
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/show_distance_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textColorHighlight="@android:color/primary_text_dark"
+        android:textSize="30dp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/buylay"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="-100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="750dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buynow"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="110dp"
+            android:background="#E96DBF"
+            app:cardBackgroundColor="#F171A9"
+            app:cardCornerRadius="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="@string/book_now"></TextView></androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:id="@+id/signup"
+    android:layout_height="match_parent">
+
+<com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_navi" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_marginTop="20dp"
+        tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+
+        app:headerLayout="@layout/nav_header_navi"
+        app:menu="@menu/activity_navi_drawer" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/activity_main"
+        android:layout_height="match_parent"
+        android:background="@color/homecolor"
+
+        tools:context=".signupp">
+    <ImageView
+        android:id="@+id/clover"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="-40dp"
+
+        android:elevation="6dp"
+        android:src="@drawable/clover" />
+
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:elevation="6dp"
+        android:id="@+id/texthome"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_marginTop="28dp"
+
+        android:layout_marginLeft="24dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="35dp"
+            android:textColor="#FFF"
+            android:text="TAMMAA"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#FFF"
+            android:text="Now Deliver Anything Anywhere..."/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/menus"
+        android:layout_width="302dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.726">
+
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/bike"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/preview" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/car"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/cared" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/truck"
+                android:layout_width="300dp"
+                android:layout_height="140dp"
+                android:background="@drawable/fourwheeler"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:layout_width="550dp"
+        android:layout_height="900dp"
+        android:layout_marginStart="-110dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="-110dp"
+        android:paddingTop="?attr/actionBarSize"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

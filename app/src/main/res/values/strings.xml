@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Tamma</string>
+    <string name="main_activity">Main Activity</string>
+
+
+    <string name="phone_number">Phone Number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_sign_in">Verify and Sign In</string>
+    <string name="sign_out">sign out</string>
+    <string name="phone_code" translatable="false">+%s</string>
+    <string name="country_name_and_code" translatable="false">%1$s (%2$s)</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="no_result_found">No result found</string>
+    <string name="select_country">Select Country</string>
+    <string name="country_code_and_phone_code" translatable="false">(%1$s) +%2$s</string>
+    <string name="country_full_name_and_phone_code" translatable="false">%1$s +%2$s</string>
+    <string name="country_full_name_and_name_code" translatable="false">%1$s (%2$s)</string>
+    <string name="country_full_name_name_code_and_phone_code" translatable="false">%1$s (%2$s) +%3$s</string>
+    <string name="error_unregister_carrier_number" translatable="false">EditText for carrier number is not registered. Register it using registerPhoneNumberTextView() before getFullNumber() or setFullNumber().</string>
+    <string name="title_activity_pickup">Map</string>
+    <string name="title_activity_bottomnavi">bottomnavi</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="mr_panda_risky">Mr Panda Risky</string>
+    <string name="explore">Explore</string>
+    <string name="simply_makes_design_good">Simply makes design good</string>
+    <string name="bitcoin">BitCoin</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_directions_key">google_directions_key</string>
+    <string name="book_now">Book Now</string>
+    <string name="action_settings">action_setting</string>
+    <string name="title_activity_navi">navi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Tamma</string>
+    <string name="menu_gallery">Notification</string>
+
+    <string name="booking_successfuly">BOOKING SUCCESSFULY</string>
+    <string name="thank_you_for_booking">Thank you for Booking!!</string>
+    <string name="ok">OK!!</string>
+    <string name="tamma">TAMMA</string>
+
+</resources>
